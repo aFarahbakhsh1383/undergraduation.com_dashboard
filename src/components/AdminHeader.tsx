@@ -30,7 +30,6 @@ export default function AdminHeader() {
           <Link href="/dashboard" className="text-white/90 hover:text-white">Dashboard</Link>
           <Link href="/student" className="text-white/90 hover:text-white">Students</Link>
           <Link href="/colleges" className="text-white/90 hover:text-white">Colleges</Link>
-          <Link href="#" className="text-white/90 hover:text-white">Essays</Link>
           <button
             onClick={handleLogout}
             className="ml-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-3 py-1.5 text-sm"
@@ -71,7 +70,6 @@ export default function AdminHeader() {
             <Link href="/dashboard" onClick={() => setOpen(false)} className="text-white/90 hover:text-white">Dashboard</Link>
             <Link href="/student" onClick={() => setOpen(false)} className="text-white/90 hover:text-white">Students</Link>
             <Link href="/colleges" onClick={() => setOpen(false)} className="text-white/90 hover:text-white">Colleges</Link>
-            <Link href="#" onClick={() => setOpen(false)} className="text-white/90 hover:text-white">Essays</Link>
             <button
               onClick={handleLogout}
               className="mt-auto bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-3 py-2 text-sm text-left"
